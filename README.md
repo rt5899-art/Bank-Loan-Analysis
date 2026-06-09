@@ -142,7 +142,6 @@ This confirms a classic risk-return pattern: higher-rate loans carry higher defa
 **6. California is a geographic concentration risk.**
 The US map on the Overview page shows California as a dominant state. Over-reliance on a single geography exposes the portfolio to regional economic downturns.
 
-![Overview - Geographic and Trend Breakdown](assets/ss-Bankloan_overview.png)
 
 ---
 
