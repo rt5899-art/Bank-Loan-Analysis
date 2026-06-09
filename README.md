@@ -6,7 +6,7 @@ This project presents a comprehensive Bank Loan Analysis built to monitor, evalu
 
 The problem it addresses is the lack of a consolidated, visual view of loan performance. Stakeholders previously had no quick way to distinguish healthy lending from risky exposure, understand borrower profiles, or track month-over-month portfolio growth. This project solves that by providing a structured, filterable reporting system covering 38,576 total loan applications, $435.8M in total funded amounts, and $473.1M in total amounts received.
 
-![Bank Loan Report - Summary Dashboard](assets/ss-Bankloan_summary_bi.png)
+![image alt](https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/ss-Bankloan_summary%20bi.png?raw=true)
 
 ---
 
@@ -55,7 +55,7 @@ The problem it addresses is the lack of a consolidated, visual view of loan perf
 
 ### Page 1: Summary
 
-![Bank Loan Report - Summary](assets/ss-Bankloan_summary_bi.png)
+![image alt](https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/ss-Bankloan_summary%20bi.png?raw=true)
 
 The Summary page provides a high-level portfolio health snapshot. Total loan applications stand at 38,576, with a Month-to-Date (MTD) count of 4,300 and a Month-over-Month (MoM) growth of 6.9%. The total funded amount is $435.8M against a total amount received of $473.1M, indicating that repayments are exceeding disbursements — a positive cash flow signal.
 
@@ -73,7 +73,7 @@ The Loan Status breakdown table reveals:
 
 ### Page 2: Overview
 
-![Bank Loan Report - Overview](assets/ss-Bankloan_overview.png)
+![image alt](https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/ss-Bankloan%20overview.png?raw=true)
 
 The Overview page breaks down loan applications across multiple dimensions to reveal behavioral and geographic trends. The KPI cards on this page reflect a filtered view (Good Loans only): 33,200 total applications, $370.2M funded, $435.8M received, 11.8% average interest rate, and 13.2% average DTI.
 
@@ -93,7 +93,7 @@ The Overview page breaks down loan applications across multiple dimensions to re
 
 ### Page 3: Details
 
-![Bank Loan Report - Details](assets/ss-_bank_loan_details.png)
+![image alt](https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/ss-%20bank%20loan%20details.png?raw=true)
 
 The Details page presents a granular, row-level loan register displaying individual records filtered to Good Loans. Each row includes Loan ID, Purpose, Home Ownership, Grade, Sub Grade, Issue Date, Funded Amount, Interest Rate, Installment, and Amount Received.
 
@@ -188,6 +188,9 @@ Bank-Loan-Analysis/
 |-- powerbi/
 |   |-- bank_loan_report.pbix
 |-- README.md
+|-- Image1
+|-- Image2
+|-- Image3
 ```
 
 ---
