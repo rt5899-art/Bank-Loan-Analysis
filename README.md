@@ -1,35 +1,62 @@
-# Bank Loan Risk & Performance Analysis
+# Bank Loan Analysis
 
 ---
 
-## 1. Project Overview
-This project delivers a comprehensive data analytics solution designed to monitor, evaluate, and optimize a commercial bank's lending portfolio. By tracking key performance indicators across loan applications, funding allocations, and repayment collections, the dashboard provides critical visibility into portfolio health. The analytical architecture distinguishes between high-performing assets ("Good Loans") and non-performing vulnerabilities ("Bad Loans") to mitigate credit risk and improve cash flow forecasting.
+## Project Overview
+
+The **Bank Loan Analysis** project is an interactive **Power BI dashboard** designed to analyze loan performance, borrower behavior, funding trends, and repayment status. It enables financial institutions to monitor loan portfolios, identify risk patterns, and make data-driven lending decisions through dynamic visualizations and KPI tracking.
 
 ---
 
-## 2. Tools & Technologies
-* **Business Intelligence:** Power BI (Data modeling, interactive dashboard design, and native filter controls)
-* **Analytical Calculations:** Advanced DAX programming for dynamic Month-to-Month (**MoM**) and Month-to-Date (**MTD**) lending metrics
-* **Data Categorization:** Risk segmentation matrices based on applicant employment history, debt-to-income (**DTI**) ratios, loan grades, and utilization purposes
+## Tools & Technologies
+
+- Power BI
+- SQL
+- Microsoft Excel
+- DAX
+- Data Modeling
+- Data Visualization
 
 ---
 
-## 3. Key Business Insights
-* **Lending Volume & Scale:** Accumulated **38.6K** total loan applications, culminating in **$435.8M** in total funded capital and **$473.1M** in total collected revenue.
-* **Portfolio Health Split:** **86.2%** of applications qualify as Good Loans (generating **$435.8M** in cash collections), while **13.8%** are flagged as Bad Loans, stalling **$65.5M** in funded capital.
-* **Default Exposure:** A total of **5,333** applications have been completely **Charged Off**, directly accounting for a **$37.3M** recovery deficit relative to their funded totals.
-* **Core Risk Profile:** Capital is heavily distributed at an average interest rate of **12.0%** and an average Debt-to-Income (**DTI**) ratio of **13.3%**.
-* **Primary Demand Drivers:** **Debt consolidation** stands as the overwhelming primary driver for credit applications (**16K** applications), with **Renters** (**16K**) and **Mortgage holders** (**15K**) making up the vast majority of borrowers.
-* **Temporal & Demographic Trends:** Credit demand displays steady month-over-month growth throughout the year, peaking in December at **3,665** applications, with the most stable borrower demographic being professionals with **10+ years** of employment history (**7.5K** applications).
+## Key Business Insights
+
+- **38.6K** total loan applications were processed during the analysis period.
+- **$435.8M** total loan amount was funded across all applications.
+- **$473.1M** has been received from borrowers, indicating strong repayment performance.
+- **86.2%** of applications are classified as **Good Loans**, while only **13.8%** fall under **Bad Loans**.
+- Debt Consolidation represents the **largest loan purpose category**, followed by Credit Card and Home Improvement loans.
+- Rent and Mortgage customers account for the majority of loan applications.
+- Loan applications show a **consistent month-over-month growth trend**, indicating increasing lending activity.
+- Long-tenure employees contribute a significant share of total loan applications compared to newer employees.
 
 ---
 
-## 4. Strategic Recommendations
+## Strategic Recommendations
 
-* **High Debt Consolidation Concentration ➔ Portfolio Diversification** The heavy concentration of credit in debt consolidation increases structural risk. Introduce targeted marketing for lower-risk loan products (e.g., home improvement) to diversify asset distribution.
+- **High Good Loan Ratio ➜** Continue strengthening current credit evaluation strategies to maintain portfolio quality.
+- **Debt Consolidation Dominance ➜** Develop customized financial products targeting debt consolidation customers.
+- **Bad Loan Segment ➜** Apply stricter underwriting and additional risk assessment for high-risk applicants.
+- **Growing Loan Demand ➜** Increase operational capacity to handle rising application volumes efficiently.
+- **Home Ownership Analysis ➜** Design tailored loan offerings for Rent, Mortgage, and Ownership segments.
+- **Geographic Insights ➜** Expand marketing efforts in high-performing states while improving penetration in low-performing regions.
 
-* **Charged Off Loss Metric ($37.3M Received vs $65.5M Funded) ➔ Credit Policy Tightening** Tighten underwriting requirements for applicants mirroring the profiles of high-risk "Charged Off" segments, specifically focusing on lower-grade loan tiers (Grades D through E) exhibiting elevated DTI ratios.
+---
 
-* **13.8% Bad Loan Ratio ➔ Automated Risk Flags** Deploy early-warning automated alerts within the CRM when an applicant's DTI tracks above the **13.3%** average, especially for shorter employment brackets (under 1 year) where default probabilities elevate.
+## Dashboard Screenshots
 
-* **Short-Term Term Structure Strategy ➔ Capital Velocity Optimization** With **75.85%** of applicants choosing shorter **36-month terms**, capitalize on this high turnover rate by offering loyalty interest incentives to repeatable, "Fully Paid" borrowers to maximize safe capital velocity.
+### Summary Dashboard
+
+![Summary Dashboard](images/BankLoan_Summary.png)
+
+### Overview Dashboard
+
+![Overview Dashboard](images/BankLoan_Overview.png)
+
+### Details Dashboard
+
+![Details Dashboard](images/BankLoan_Details.png)
+
+---
+
+This project demonstrates end-to-end **financial data analysis and dashboard development**, transforming raw loan data into actionable business insights for portfolio monitoring and strategic decision-making.
