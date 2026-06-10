@@ -4,42 +4,42 @@
 
 ## Project Overview
 
-The **Bank Loan Analysis** project is an interactive **Power BI dashboard** designed to analyze loan performance, borrower behavior, funding trends, and repayment status. It enables financial institutions to monitor loan portfolios, identify risk patterns, and make data-driven lending decisions through dynamic visualizations and KPI tracking.
+This project presents an **interactive Bank Loan Analysis Dashboard** built using **Excel, Python, and Power BI** to analyze loan applications, funding performance, repayment trends, borrower profiles, and loan quality. The dashboard helps identify lending patterns, monitor portfolio health, and support data-driven financial decision-making through dynamic KPIs and visual analytics.
 
 ---
 
 ## Tools & Technologies
 
-- Power BI
-- SQL
 - Microsoft Excel
+- Python (Pandas, NumPy)
+- Power BI
 - DAX
-- Data Modeling
+- Data Cleaning & Transformation
 - Data Visualization
 
 ---
 
 ## Key Business Insights
 
-- **38.6K** total loan applications were processed during the analysis period.
-- **$435.8M** total loan amount was funded across all applications.
-- **$473.1M** has been received from borrowers, indicating strong repayment performance.
-- **86.2%** of applications are classified as **Good Loans**, while only **13.8%** fall under **Bad Loans**.
-- Debt Consolidation represents the **largest loan purpose category**, followed by Credit Card and Home Improvement loans.
-- Rent and Mortgage customers account for the majority of loan applications.
-- Loan applications show a **consistent month-over-month growth trend**, indicating increasing lending activity.
-- Long-tenure employees contribute a significant share of total loan applications compared to newer employees.
+- **38.6K** total loan applications were processed.
+- **$435.8M** total loan amount was funded by the bank.
+- **$473.1M** total repayments were received from borrowers.
+- **86.2%** of loans are classified as **Good Loans**, while **13.8%** are **Bad Loans**.
+- **Debt Consolidation** is the most common loan purpose with approximately **16K applications**.
+- **Rent** and **Mortgage** customers account for the highest share of loan applications.
+- Loan applications show a **steady month-over-month growth**, indicating increasing customer demand.
+- Employees with **10+ years of experience** contribute the highest number of loan applications.
 
 ---
 
 ## Strategic Recommendations
 
-- **High Good Loan Ratio ➜** Continue strengthening current credit evaluation strategies to maintain portfolio quality.
-- **Debt Consolidation Dominance ➜** Develop customized financial products targeting debt consolidation customers.
-- **Bad Loan Segment ➜** Apply stricter underwriting and additional risk assessment for high-risk applicants.
-- **Growing Loan Demand ➜** Increase operational capacity to handle rising application volumes efficiently.
-- **Home Ownership Analysis ➜** Design tailored loan offerings for Rent, Mortgage, and Ownership segments.
-- **Geographic Insights ➜** Expand marketing efforts in high-performing states while improving penetration in low-performing regions.
+- **Strong Good Loan Ratio ➔** Continue maintaining current credit approval policies.
+- **High Debt Consolidation Demand ➔** Introduce customized debt refinancing products.
+- **Bad Loan Segment ➔** Strengthen risk assessment and borrower verification processes.
+- **Increasing Loan Demand ➔** Improve operational capacity and loan processing efficiency.
+- **Home Ownership Trends ➔** Design targeted loan products for Rent and Mortgage customers.
+- **Regional Performance Analysis ➔** Expand lending strategies in high-performing states while improving outreach in underperforming regions.
 
 ---
 
@@ -59,4 +59,4 @@ The **Bank Loan Analysis** project is an interactive **Power BI dashboard** desi
 
 ---
 
-This project demonstrates end-to-end **financial data analysis and dashboard development**, transforming raw loan data into actionable business insights for portfolio monitoring and strategic decision-making.
+This project demonstrates **end-to-end data analytics**, combining **Excel, Python, and Power BI** to transform raw banking data into actionable insights for loan portfolio monitoring, risk analysis, and strategic business decision-making.
