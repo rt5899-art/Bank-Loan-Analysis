@@ -32,7 +32,7 @@ This project presents an **interactive Bank Loan Analysis Dashboard** built usin
 
 ---
 
-## Strategic Recommendations
+##  Recommendations
 
 - **Strong Good Loan Ratio ➔** Continue maintaining current credit approval policies.
 - **High Debt Consolidation Demand ➔** Introduce customized debt refinancing products.
