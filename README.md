@@ -51,7 +51,7 @@ This project presents an **interactive Bank Loan Analysis Dashboard** built usin
 
 ### Overview Dashboard
 
-![image alt](https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/ss-Bankloan%20overview.png?raw=true)
+![image alt](https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/loan-overview.png?raw=true)
 
 ### Details Dashboard
 
