@@ -56,7 +56,7 @@ This project presents an **interactive Bank Loan Analysis Dashboard** built usin
 ### Details Dashboard
 
 
-![image alt]( https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/ss-%20bank%20loan%20details.png?raw=true)
+![image alt](https://github.com/rt5899-art/Bank-Loan-Analysis/blob/main/loan_details.png?raw=true)
 
 ---
 This project demonstrates **end-to-end data analytics**, combining **Excel, Python, and Power BI** to transform raw banking data into actionable insights for loan portfolio monitoring, risk analysis, and strategic business decision-making.
